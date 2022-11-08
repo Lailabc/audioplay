@@ -12,25 +12,34 @@
 
 <body>
     <div id="audioPlayer">
-    <div id="button-container">
-        <div id="track1" class="button">
-            <P>SUNRISE</P>
+        <div id="button-container">
+            <div id="track1" class="button">
+                <P>SUNRISE</P>
+            </div>
+            <div id="track2" class="button">
+                <P>SUNSET</P>
+            </div>
+            <div id="track3" class="button">
+                <P>TWILIGHT</P>
+            </div>
         </div>
-        <div id="track2" class="button">
-            <P>SUNSET</P>
+        <div id="container">
+            <img id="play-pause-button" src="images/play.svg">
+            <h4 id="current-time">0:00</h4>
+            <h4>/</h4>
+            <h4 id="total-time">0:00</h4>
+            <input id="seek-bar" type="range" min="0" value="0" disabled />
+
+            
         </div>
-        <div id="track3" class="button">
-            <P>TWILIGHT</P>
+        <div id="img-container">
+            <div id="imgtrack1"></div>
+            <div id="imgtrack2"></div>
+            <div id="imgtrack3"></div>
+
+
         </div>
     </div>
-    <div id="container">
-        <img id="play-pause-button" src="images/play.svg">
-        <h4 id="current-time">0:00</h4>
-        <h4>/</h4>
-        <h4 id="total-time">0:00</h4>
-        <input id="seek-bar" type="range" min="0" value="0" disabled />
-    </div>
-</div>
 
 
 
